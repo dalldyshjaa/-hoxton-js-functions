@@ -32,4 +32,9 @@ function admit(person) {
     return `Come back in ${yearsToAdulthood(person.age)}`;
   }
 }
+console.log(add(1, 1));
+console.log(isEven(1));
+console.log(greet("Ed"));
+console.log(isAnAdult(18));
+console.log(yearsToAdulthood(17));
 console.log(admit({ age: 0, name: "taulant" }));
